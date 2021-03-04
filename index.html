@@ -29,16 +29,16 @@
         </div>
         <div class="row">
             <div class="col-12">
-                <form onsubmit="return false;" name="formRegister">
+                <form onsubmit="return false;" id ="form" name="formRegister"> 
                     <div class="form-group">
                         <label for="labelName">Name:</label>
-                        <input class="form-control" type="text" id="name" name="name">
+                        <input class="form-control" type="text" id="name" name="name" required>
                     </div>
                     <div class="form-group">
                         <label for="labelSurname">Surname:</label>
-                        <input class="form-control" type="text" id="surname" name="surname">
+                        <input class="form-control" type="text" id="surname" name="surname" required>
                     </div>
-                    <button type="submit" class="btn btn-primary" onclick="register()">Registrar</button>
+                    <button id ="btnRegister" type="submit" class="btn btn-primary" [disabled]="!formRegister.valid" onclick="register()">Registrar</button>
                 </form>
             </div>
         </div>
