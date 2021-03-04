@@ -14,7 +14,7 @@ Proporcionar una interfaz sencilla integrada con los servicios del proyecto: htt
 
 ## Ejecución de la aplicación
 
-Previamente los servicios deben estar disponibles por el puerto 8080 del proyecto(https://github.com/roxandreajc110/app-user).
+Previamente los servicios deben estar disponibles por el puerto 8080 del proyecto (https://github.com/roxandreajc110/app-user).
 
 Por la simplicidad del proyecto solo es necesario abrir en un navegador por ejemplo Google Chrome , el archivo : ***index.html*** alli se encontrarán las respectivas funcionalidades. 
 
